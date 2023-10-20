@@ -2,6 +2,7 @@
 @import url("./static.css");
 @import url("./login.css");
 @import url("./buttons.css");
+@import url("./dropdown.css");
 
 * {
 	font-family: "Poppins", sans-serif;
