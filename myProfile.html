@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/css/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="layout">
+			<div class="menu_bar">
+				<div class="vertical_menu_item" style="margin-bottom: 16px">
+					<input
+						id="rad_logo"
+						type="radio"
+						name="vertical_menu"
+						disabled
+					/>
+					<label for="rad_logo">
+						<div>
+							<div>
+								<img src="./assets/icons/Menu.svg" alt="" />
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_home"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('index')"
+					/>
+					<label for="rad_home">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Home.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_dashboard"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('dashboard')"
+					/>
+					<label for="rad_dashboard">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Presentation.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_saved"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('saved')"
+					/>
+					<label for="rad_saved">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Saved.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_cart"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('cart')"
+					/>
+					<label for="rad_cart">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Bag.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_order_history"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('orderHistory')"
+					/>
+					<label for="rad_order_history">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Clock.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_my_profile"
+						type="radio"
+						name="vertical_menu"
+						checked
+						onclick="changePage('myProfile')"
+					/>
+					<label for="rad_my_profile">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/User.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_manage_orders"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('manageOrders')"
+					/>
+					<label for="rad_manage_orders">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Document.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_manage_users"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('manageUsers')"
+					/>
+					<label for="rad_manage_users">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Two-user.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+				<div class="vertical_menu_item">
+					<input
+						id="rad_logout"
+						type="radio"
+						name="vertical_menu"
+						onclick="changePage('signOut')"
+					/>
+					<label for="rad_logout">
+						<div>
+							<div>
+								<img
+									src="./assets/icons/COCO/Line/Turn off.svg"
+									alt=""
+								/>
+							</div>
+							<div></div>
+						</div>
+					</label>
+				</div>
+			</div>
+			<div
+				style="height: 100%; width: 100%; background-color: aquamarine"
+				class="container-fluid"
+			>
+				<div class="row">
+					<div
+						class="col-12"
+						style="background-color: antiquewhite"
+					></div>
+				</div>
+			</div>
+		</div>
+		<script src="./src/js/controller.js"></script>
+	</body>
+</html>

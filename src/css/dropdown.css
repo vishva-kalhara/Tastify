@@ -1,0 +1,15 @@
+select {
+	height: 44px;
+	border: none;
+	background-color: var(--blue50);
+	box-sizing: border-box;
+	padding: 0 16px;
+	border: 2px solid var(--blue80);
+    width: 100%;
+}
+
+select:hover,
+select:focus {
+	background-color: var(--blue80);
+	outline: none;
+}

@@ -5,6 +5,16 @@
   "hints": {
     "button-type": "off",
     "axe/name-role-value": "off",
-    "no-inline-styles": "off"
-  }
+    "no-inline-styles": "off",
+    "axe/forms": "off",
+    "css-prefix-order": "off",
+    "compat-api/css": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not edge <= 114",
+    "not ios_saf <= 16.5",
+    "not safari <= 16.5"
+  ]
 }

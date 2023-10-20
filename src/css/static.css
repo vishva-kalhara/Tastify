@@ -5,10 +5,13 @@
 	--black500: #717171;
 	--black100: #C4C4C4;
     --white: #fff;
+    --blue700: #7B78ED;
     --blue200: #C1BFFF;
     --blue80: #EDF0F6;
     --blue50: #FAFBFE;
     --container_back: #f4f4f4;
     --gradMain: linear-gradient(135deg, #777FF6, #8462D5);
     --gradMainHover: linear-gradient(135deg, #A3A9FF, #A181ED);
+    --gradAccent: linear-gradient(135deg, #E7E8FF, #E7DCFF);
+
 }

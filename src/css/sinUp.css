@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.main-div {
+	display: flex;
+}
+
+.imgMainDive {
+	width: 1280px;
+	height: 832px;
+	background-color: aqua;
+}
+
+.img-div {
+	width: 640px;
+	height: 832px;
+	flex-shrink: 0;
+	background-color: blueviolet;
+}
+
+.fom-main-div {
+	width: 640px;
+	height: 832px;
+	flex-shrink: 0;
+	background-color: #fff;
+}
+.Tastify-div {
+	display: inline-flex;
+	padding: 11.164px 24.046px;
+	justify-content: center;
+	align-items: center;
+	gap: 8.588px;
+	border-radius: 9.447px;
+	background: linear-gradient(
+		90deg,
+		rgba(231, 232, 255, 0.7) 0%,
+		rgba(231, 220, 255, 0.7) 100%
+	);
+	margin-left: 263.95px;
+	margin-top: 209px;
+}
+.Tastify {
+	font-family: Comic Neue;
+	font-size: 24.046px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.515px;
+	background: var(
+		--gradMain,
+		linear-gradient(90deg, #777ff6 0%, #8462d5 100%)
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.Get-Started-Now-div {
+	color: #3e3d3d;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	margin-top: 52.84px;
+}
+
+.Create-Account-div {
+	color: var(--black500, #717171);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.4px;
+}
+
+.form-fill-div {
+	margin-left: 195px;
+	margin-top: 22px;
+}
+
+.sinUp-btn-div {
+	margin-left: 195px;
+	margin-top: 20px;
+}
+
+.signUp-btn {
+	width: 250px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 3px;
+	background: var(
+		--gradMain,
+		linear-gradient(90deg, #777ff6 0%, #8462d5 100%)
+	);
+}
+
+.Already-Have-an-Account-div {
+	color: var(--primary200, #a19ffb);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	text-decoration-line: underline;
+	margin-top: 36px;
+}

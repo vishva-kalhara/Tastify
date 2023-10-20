@@ -3,10 +3,19 @@
 @import url("./login.css");
 @import url("./buttons.css");
 @import url("./dropdown.css");
+@import url("./vertical_menu.css");
+@import url("./bootstrap.css");
+
 
 * {
 	font-family: "Poppins", sans-serif;
 	transition: all 0.5s;
+}
+
+body{
+	min-height: 93vh;
+	height: 100vh;
+	margin: 0;
 }
 
 .container_logo {
@@ -27,6 +36,8 @@
 	margin-top: 36px;
 	margin-bottom: 14px;
 }
+
+
 
 .txt_box {
 	height: 44px;
@@ -58,3 +69,26 @@
 	width: 256px;
 }
 
+.layout{
+	display: flex;
+	box-sizing: border-box;
+	min-height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	min-width: 100%;
+
+}
+
+.menu_bar{
+	width: 80px;
+	min-height: 100%;
+	min-height: 100%;
+
+	box-sizing: border-box;
+}
+
+.menu_logo{
+	width: 80px;
+	height: 80px;
+
+}
