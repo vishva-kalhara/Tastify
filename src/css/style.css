@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("./static.css");
+@import url("./login.css");
+@import url("./buttons.css");
+
+* {
+	font-family: "Poppins", sans-serif;
+	transition: all 0.5s;
+}
+
+.container_logo {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
+
+.container__heading_1 {
+	color: var(--black500, #3e3d3d);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	margin-top: 36px;
+	margin-bottom: 14px;
+}
+
+.txt_box {
+	height: 44px;
+	border: none;
+	background-color: var(--blue50);
+	box-sizing: border-box;
+	padding: 0 16px;
+	border: 2px solid var(--blue80);
+    width: 100%;
+}
+
+.txt_box:hover,
+.txt_box:focus {
+	background-color: var(--blue80);
+	outline: none;
+}
+
+.txt_box:disabled {
+	background-color: var(--container_back);
+}
+
+.group_input_button {
+	width: 300px;
+	max-width: 300px;
+	display: flex;
+}
+
+.group_input_button > input {
+	width: 256px;
+}
+

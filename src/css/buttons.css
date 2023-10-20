@@ -1,0 +1,34 @@
+.icon_button_primary {
+	width: 44px;
+	height: 44px;
+	background-image: var(--gradMain);
+	border: none;
+	cursor: pointer;
+}
+
+.icon_button_primary:hover,
+.icon_button_primary:focus,
+.full_button_primary > button:hover,
+.full_button_primary > button:focus {
+	background-image: var(--gradMainHover);
+	outline: none;
+}
+
+.full_button_primary > button {
+	width: 300px;
+	background-image: var(--gradMain);
+	border: none;
+	padding: 12px 0;
+	border-radius: 3px;
+	color: var(--white);
+}
+
+.full_button_primary > button:disabled {
+	width: 300px;
+	background-color: var(--black100);
+	background-image: none;
+	border: none;
+	padding: 12px 0;
+	border-radius: 3px;
+	color: var(--white);
+}
