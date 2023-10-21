@@ -1,0 +1,25 @@
+.login_parent_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.login_content_div{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_content_div > div {
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.logo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

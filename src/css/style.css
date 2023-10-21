@@ -33,7 +33,23 @@ body {
 	line-height: normal;
 	letter-spacing: 0.4px;
 	margin-top: 36px;
-	margin-bottom: 14px;
+	margin-bottom: 2px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.container__heading_2 {
+	color: var(--black500, #717171);
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .txt_box {
@@ -44,6 +60,11 @@ body {
 	padding: 0 16px;
 	border: 2px solid var(--blue80);
 	width: 100%;
+	border-radius: 5px;
+}
+
+.txt_box::placeholder{
+	font-size: 14px;
 }
 
 .txt_box:hover,
@@ -145,7 +166,7 @@ body {
 	margin-bottom: 4px;
 }
 
-.right_Orient{
+.right_Orient {
 	display: flex;
 	justify-content: end;
 	width: 100%;

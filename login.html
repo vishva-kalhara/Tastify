@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/login.css" />
+    <title>Tastify | Delight in Every Bite</title>
 </head>
-<body>
-    
+<body >
+    <div class="login_parent_div">
+        <div class="side_img_container d-none d-md-flex">
+            <img style="height: 100vh; max-height: 100vh;" src="./assets/img/Food.svg" alt="">
+        </div>
+        <div class="login_content_div">
+            <div>
+                <div class="logo2">
+                    <img src="./assets/logos/logo_primary.svg" alt="">
+                </div>
+                <div class="container__heading_1">Log in to your Account</div>
+                <div style="margin-bottom: 30px;" class="container__heading_2">Welcome back.</div>
+                <div class="full_text_box" style="margin-top: 4px">
+                    <input
+                        class="txt_box"
+                        type="email"
+                        placeholder="Email"
+                    />
+                </div>
+                <div class="full_text_box" style="margin-top: 4px">
+                    <input
+                        class="txt_box"
+                        type="password"
+                        placeholder="Password"
+                    />
+                </div>
+                <div style="display: flex; width: 100%; justify-content: space-between;">
+                    <div class=" d-flex " style=" max-width: 160px;">
+                        <input class="form-check-input" type="checkbox" value="" id="rememberme">
+                        <label class="d-flex align-items-center" style="color: #7A6D68; font-weight: 400; margin-left: 8px; font-size: 13px; margin-top: 5px;" for="rememberme">
+                            Remember me
+                        </label>
+                    </div>
+                    <a onclick="routeToForget()" style="cursor: pointer; font-size: 13px; font-weight: 400; color: var(--blue700); margin-top: 4px;">Forgot Password</a>
+                </div>
+                <div style="margin-top: 16px" class="full_button_primary">
+                    <button>Reset Password</button>
+                </div>
+                <div style="cursor: pointer; font-size: 13px; font-weight: 400; color: var(--blue700); margin-top: 24px; text-decoration: underline; width: 100%; display: flex; justify-content: center;">
+                    New to Tastify?
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
