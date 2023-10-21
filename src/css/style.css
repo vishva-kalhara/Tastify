@@ -6,13 +6,12 @@
 @import url("./vertical_menu.css");
 @import url("./bootstrap.css");
 
-
 * {
 	font-family: "Poppins", sans-serif;
 	transition: all 0.5s;
 }
 
-body{
+body {
 	min-height: 93vh;
 	height: 100vh;
 	margin: 0;
@@ -37,8 +36,6 @@ body{
 	margin-bottom: 14px;
 }
 
-
-
 .txt_box {
 	height: 44px;
 	border: none;
@@ -46,7 +43,7 @@ body{
 	box-sizing: border-box;
 	padding: 0 16px;
 	border: 2px solid var(--blue80);
-    width: 100%;
+	width: 100%;
 }
 
 .txt_box:hover,
@@ -69,17 +66,17 @@ body{
 	width: 256px;
 }
 
-.layout{
+.layout {
 	display: flex;
+	justify-content: space-between;
 	box-sizing: border-box;
 	min-height: 100%;
 	min-height: 100%;
 	min-width: 100%;
 	min-width: 100%;
-
 }
 
-.menu_bar{
+.menu_bar {
 	width: 80px;
 	min-height: 100%;
 	min-height: 100%;
@@ -87,8 +84,69 @@ body{
 	box-sizing: border-box;
 }
 
-.menu_logo{
+.menu_logo {
 	width: 80px;
 	height: 80px;
+}
 
+.content_profile {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.cart_container {
+		display: none;
+		min-width: 375px;
+		max-width: 375px;
+		width: 375px;
+		height: 100vh;
+		background-color: aquamarine;
+	}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.cart_container {
+		display: block;
+		min-width: 375px;
+		max-width: 375px;
+		width: 375px;
+		height: 100vh;
+		background-color: aquamarine;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+.page_title_main {
+	color: #1e1e1e;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 16px; /* 80% */
+	letter-spacing: 0.4px;
+}
+
+.input_label1 {
+	color: #585858;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 16px; /* 114.286% */
+	letter-spacing: -0.1px;
+	margin-bottom: 4px;
+}
+
+.right_Orient{
+	display: flex;
+	justify-content: end;
+	width: 100%;
 }

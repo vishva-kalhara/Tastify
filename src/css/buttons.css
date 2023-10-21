@@ -9,7 +9,9 @@
 .icon_button_primary:hover,
 .icon_button_primary:focus,
 .full_button_primary > button:hover,
-.full_button_primary > button:focus {
+.full_button_primary > button:focus,
+.btn_normal:hover,
+.btn_normal:focus {
 	background-image: var(--gradMainHover);
 	outline: none;
 }
@@ -31,4 +33,22 @@
 	padding: 12px 0;
 	border-radius: 3px;
 	color: var(--white);
+}
+
+.btn_normal {
+	display: inline-flex;
+	padding: 10px 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 5px;
+	background: var(--gradMain);
+
+	color: var(--white);
+	border: none;
+}
+
+.btn_normal:disabled{
+	background-color: var(--black100);
+	background-image: none;
 }
